@@ -90,8 +90,8 @@ O arquivo deve conter obrigatoriamente as colunas **SKU** e **Custo**. A coluna 
 
 | SKU | Custo | Campanha |
 |---|---|---|
-| PRODUTO-ABC-42 | R$ 217,39 | 250,00 |
-| PRODUTO-XYZ-38 | R$ 90,00 | 88,00 |
+| PRODUTO-ABC | R$ 217,39 | 250,00 |
+| PRODUTO-XYZ | R$ 90,00 | 88,00 |
 
 **Delimitadores aceitos:** `;` `,` ou tabulação  
 **Formato monetário aceito:** `R$ 1.234,56` · `1234,56` · `1234.56`
@@ -104,14 +104,14 @@ O arquivo deve conter obrigatoriamente as colunas **SKU** e **Custo**. A coluna 
 
 | SKU | Custo | Preço Mínimo |
 |---|---|---|
-| PRODUTO-ABC-42 | 217,39 | 289,85 |
+| PRODUTO-ABC | 217,39 | 289,85 |
 
 **Com campanha:**
 
 | SKU | Custo | Preço Mínimo | Campanha | Status |
 |---|---|---|---|---|
-| PRODUTO-ABC-42 | 217,39 | 289,85 | 250,00 | DESCLASSIFICADO |
-| PRODUTO-XYZ-38 | 90,00 | 119,99 | 88,00 | DESCLASSIFICADO |
+| PRODUTO-ABC | 217,39 | 289,85 | 250,00 | DESCLASSIFICADO |
+| PRODUTO-XYZ | 90,00 | 119,99 | 88,00 | DESCLASSIFICADO |
 
 ---
 
